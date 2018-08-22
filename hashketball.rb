@@ -112,7 +112,7 @@ end
   team_points += player[:points]
 end
   top_team[team_info[:team_name]] = team_points   
-end                            # .key Returns a new array populated with the keys from the hash   
+end                           # .key Returns a new array populated with the keys from the hash   
   top_team.key(top_team.values.max)   
 end
  
