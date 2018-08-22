@@ -112,7 +112,7 @@ slam_dunks: 1},
  
 end
  # self reminder .values returns an array of a hash/Key!!
- # .value 
+ # .value return a new array populated with the values of the hash
  # has_value? Returns true if the given value is present for some key in hash.
 
  def num_points_scored(player_name)
