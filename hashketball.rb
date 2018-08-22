@@ -134,4 +134,5 @@ end
 end
 end
 end
-  
+   max_steals = longest.values.max  # <- .max Returns the object in with the maximum value.
+ longest[longest.key(max_steals)] == max_steals  
