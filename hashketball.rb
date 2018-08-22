@@ -133,6 +133,6 @@ end
   longest[player[:player_name]] = player[:steals]
 end
 end
-end
    max_steals = longest.values.max  # <- .max Returns the object in with the maximum value.
  longest[longest.key(max_steals)] == max_steals  
+ end
