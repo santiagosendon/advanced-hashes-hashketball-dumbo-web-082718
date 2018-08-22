@@ -123,8 +123,79 @@ end
   longest_name << player[:player_name]
 end
 end
+                                    method max_by Importance_1
+Ruby latest stable (v1_9_3_392) - 0 notes - Class: Enumerable
+1_8_6_287
+1_8_7_72
+1_8_7_330
+1_9_1_378
+(-21)
+1_9_2_180
+(38)
+1_9_3_125
+1_9_3_392
+What's this?
+Related methods
+Instance methods (52)
+Importance_4_sm all?
+Importance_2_sm any?
+Importance_3_sm chunk
+Importance_2_sm collect
+Importance_1_sm collect_concat
+Importance_1_sm count
+Importance_1_sm cycle
+Importance_2_sm detect
+Importance_1_sm drop
+Importance_2_sm drop_while
+Importance_2_sm each_cons
+Importance_1_sm each_entry
+Importance_2_sm each_slice
+Importance_1_sm each_with_index
+Importance_2_sm each_with_object
+Importance_1_sm entries
+Importance_2_sm enum_cons (<= v1_8_7_330)
+Importance_2_sm enum_slice (<= v1_8_7_330)
+Importance_2_sm enum_with_index (<= v1_8_7_330)
+Importance_3_sm find
+Importance_2_sm find_all
+Importance_1_sm find_index
+Importance_2_sm first
+Importance_3_sm flat_map
+Importance_1_sm grep
+Importance_2_sm group_by
+Importance_1_sm include?
+Importance_5_sm inject
+Importance_4_sm map
+Importance_2_sm max
+Importance_1_sm max_by
+Importance_2_sm member?
+Importance_2_sm min
+Importance_1_sm min_by
+Importance_1_sm minmax
+Importance_1_sm minmax_by
+Importance_2_sm none?
+Importance_2_sm one?
+Importance_1_sm partition
+Importance_2_sm reduce
+Importance_2_sm reject
+Importance_1_sm reverse_each
+Importance_1_sm select
+Importance_3_sm slice_before
+Importance_1_sm sort
+Importance_2_sm sort_by
+Importance_1_sm take
+Importance_1_sm take_while
+Importance_1_sm to_a
+Importance_0_sm to_json (<= v1_9_2_180)
+Importance_1_sm to_set
+Importance_2_sm zip
+Icon_private_sm = private
+Icon_protected_sm = protected
+
+max_by() public
+Returns the object in enum that gives the maximum value from the given block.
   longest_name.max_by{|name| name.length}
-end
+end                             
  
  def long_name_steals_a_ton?
   longest = {}
